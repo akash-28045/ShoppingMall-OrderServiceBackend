@@ -3,84 +3,84 @@
   # SHOPPING MALL MANAGEMENT SYSTEM – ORDER SERVICE (SPRING BOOT)
 
 
-# WHAT THIS APPLICATION DOES:
+## WHAT THIS APPLICATION DOES:
 
-This application manages orders in a shopping mall.
+- This application manages orders in a shopping mall.
 
-# IT ALLOWS USER TO:
+### IT ALLOWS USER TO:
 
-Create a new order
+- Create a new order
 
-View all orders
+- View all orders
 
-View order by ID
+- View order by ID
 
-Update order status
+- Update order status
 
-Delete an order
+- Delete an order
 
-Built as a standalone Order Service module using REST APIs
+- Built as a standalone Order Service module using REST APIs
 
 # TECHNOLOGIES USED:
 
-Java – Core programming language for backend logic
+- Java – Core programming language for backend logic
 
-Spring Boot – Makes backend development fast and easy
+- Spring Boot – Makes backend development fast and easy
 
-Spring Data JPA – Handles database operations without writing SQL
+- Spring Data JPA – Handles database operations without writing SQL
 
-PostgreSQL – Stores order data securely
+- PostgreSQL – Stores order data securely
 
-Postman API – Used to test REST APIs
+- Postman API – Used to test REST APIs
 
-Maven – Manages project dependencies
+- Maven – Manages project dependencies
 
 # CHALLENGES FACED DURING THE PROJECT:
 
-Understanding REST API flow (Controller → Service → Repository)
+- Understanding REST API flow (Controller → Service → Repository)
 
-Fixing 404 errors due to incorrect URL mapping
+- Fixing 404 errors due to incorrect URL mapping
 
-Connecting Spring Boot with PostgreSQL
+- Connecting Spring Boot with PostgreSQL
 
-Handling JSON request body correctly in Postman
+- Handling JSON request body correctly in Postman
 
-Learning how JPA automatically creates tables
+- Learning how JPA automatically creates tables
 
  # INSTALLATION SETUP TOOLS AND SETUP USED:
 
-Installed JDK 17
+- Installed JDK 17
 
-Installed Eclipse / Springboot Eclipse
+- Installed Eclipse / Springboot Eclipse
 
-Installed PostgreSQL & pgAdmin
+- Installed PostgreSQL & pgAdmin
 
-Created database for Order Service
+- Created database for Order Service
 
-Configured application.properties for DB connection
+- Configured application.properties for DB connection
 
-Built project using Maven
+- Built project using Maven
 
-Tested APIs using Postman
+- Tested APIs using Postman
 
 # ARCHITECTURE USED:
 
- Layered Architecture:
+## Layered Architecture:
 
-Controller Layer
+- Controller Layer
 
-Service Layer
+- Service Layer
 
-Repository Layer
+- Repository Layer
 
-Entity Layer
+- Entity Layer
 
-RESTful API design
+- RESTful API design
 
  # OUTCOME:
 
-Successfully created a working Order Service
+- Successfully created a working Order Service
 
-Data stored and retrieved from PostgreSQL
+- Data stored and retrieved from PostgreSQL
 
-APIs tested and validated using Postman
+- APIs tested and validated using Postman
