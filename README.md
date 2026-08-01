@@ -1,14 +1,13 @@
-*Project Title*
+# PROJECT TITLE:
 
-  Shopping Mall Management System – Order Service (Spring Boot)
+  # SHOPPING MALL MANAGEMENT SYSTEM – ORDER SERVICE (SPRING BOOT)
 
-*Project Description*
 
-What this application does;
+# WHAT THIS APPLICATION DOES:
 
 This application manages orders in a shopping mall.
 
-It allows users to:
+# IT ALLOWS USER TO:
 
 Create a new order
 
@@ -22,7 +21,7 @@ Delete an order
 
 Built as a standalone Order Service module using REST APIs
 
-Why I Used These Technologies;
+# TECHNOLOGIES USED:
 
 Java – Core programming language for backend logic
 
@@ -36,7 +35,7 @@ Postman API – Used to test REST APIs
 
 Maven – Manages project dependencies
 
-Challenges Faced During the Project;
+# CHALLENGES FACED DURING THE PROJECT:
 
 Understanding REST API flow (Controller → Service → Repository)
 
@@ -48,7 +47,7 @@ Handling JSON request body correctly in Postman
 
 Learning how JPA automatically creates tables
 
- *Installation SetupTools and setup used*
+ # INSTALLATION SETUP TOOLS AND SETUP USED:
 
 Installed JDK 17
 
@@ -64,7 +63,7 @@ Built project using Maven
 
 Tested APIs using Postman
 
-*Architecture Used*
+# ARCHITECTURE USED:
 
  Layered Architecture:
 
@@ -78,7 +77,7 @@ Entity Layer
 
 RESTful API design
 
- *Outcome*
+ # OUTCOME:
 
 Successfully created a working Order Service
 
