@@ -15,8 +15,11 @@ The Controller layer handles incoming HTTP requests and exposes REST API endpoin
 The application supports HTTP operations such as POST, GET, PUT, and DELETE to perform order management functionalities. JSON request and response bodies are used for communication between the frontend and backend. Postman is used to test API endpoints and validate application responses.
 
 ## WHAT THIS APPLICATION DOES:
-
-- This application manages orders in a shopping mall.
+- This application manages order-related operations in a shopping mall through a standalone backend service.
+- It allows users to create, view, update, and delete orders using RESTful APIs.
+- It processes order requests and handles business logic through Spring Boot.
+- It stores and retrieves order information using PostgreSQL and Spring Data JPA.
+- It provides API endpoints for communication with the Angular frontend.
 
 ### IT ALLOWS USER TO:
 
