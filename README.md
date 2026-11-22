@@ -37,17 +37,17 @@ The application supports HTTP operations such as POST, GET, PUT, and DELETE to p
 
 # TECHNOLOGIES USED:
 
-- Java – Core programming language for backend logic
+- Java - Core programming language for backend logic
 
-- Spring Boot – Makes backend development fast and easy
+- Spring Boot - Makes backend development fast and easy
 
-- Spring Data JPA – Handles database operations without writing SQL
+- Spring Data JPA - Handles database operations without writing SQL
 
-- PostgreSQL – Stores order data securely
+- PostgreSQL - Stores order data securely
 
-- Postman API – Used to test REST APIs
+- Postman API - Used to test REST APIs
 
-- Maven – Manages project dependencies
+- Maven - Manages project dependencies
 
 # CHALLENGES FACED DURING THE PROJECT:
 
