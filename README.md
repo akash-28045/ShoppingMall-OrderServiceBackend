@@ -2,6 +2,18 @@
 
   # SHOPPING MALL MANAGEMENT SYSTEM – ORDER SERVICE (SPRING BOOT)
 
+  # PROJECT OVERVIEW:
+
+This project is the backend service of a Shopping Mall Management System, developed using Java and Spring Boot. It is designed as a standalone Order Service module that manages order-related operations through RESTful APIs. The application allows users to create new orders, retrieve all orders, search for a specific order by ID, update order status, and delete orders. It uses PostgreSQL for persistent data storage and Spring Data JPA to simplify database interactions.
+
+# BACKEND DESCRIPTION:
+
+The backend follows a layered architecture consisting of Controller, Service, Repository, and Entity layers, ensuring separation of concerns and organized application logic.
+
+The Controller layer handles incoming HTTP requests and exposes REST API endpoints for order management. The Service layer contains the business logic required to process order-related operations. The Repository layer uses Spring Data JPA to interact with the PostgreSQL database, while the Entity layer represents the order data structure mapped to database tables.
+
+The application supports HTTP operations such as POST, GET, PUT, and DELETE to perform order management functionalities. JSON request and response bodies are used for communication between the frontend and backend. Postman is used to test API endpoints and validate application responses.
+
 ## WHAT THIS APPLICATION DOES:
 
 - This application manages orders in a shopping mall.
